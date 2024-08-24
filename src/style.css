@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --text: #101113;
+    --background: #f9f9fb;
+    --primary: #fafafa;
+    --secondary: #f7f7f7;
+    --border: #242424;
+  }
+  .dark {
+    --text: #ecedef;
+    --background: #040406;
+    --primary: #0e0d0d;
+    --secondary: #1b1b1b;
+    --border: #a7a7a7;
+  }
+  
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  @apply bg-background text-text;
+}
+
+li {
+  @apply px-4 py-1 cursor-pointer;
+  &:hover {
+    text-decoration: underline;
+    border-radius: 10px;
+  }
+}
+
+.fade {
+  transition: opacity 0.4s ease-in-out linear;
+}
+
+.fade.loaded {
+  opacity: 1;
+}
