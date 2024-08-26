@@ -34,7 +34,7 @@ body {
 }
 
 li {
-  @apply px-4 py-1 cursor-pointer;
+  @apply cursor-pointer;
   &:hover {
     text-decoration: underline;
     border-radius: 10px;

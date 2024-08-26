@@ -11,7 +11,7 @@ export default defineComponent({
     class="sticky top-4 z-50 w-full h-14 bg-primary rounded-full p-2 flex items-center justify-center shadow-sm"
   >
     <ul
-      class="text-md md:text-xl dark:text-white flex items-center justify-between sm:gap-8 md:gap-16"
+      class="text-sm sm:text-md md:text-xl dark:text-white flex items-center justify-between gap-6 sm:gap-8 md:gap-16"
     >
       <li><a href="#home">Home</a></li>
       <li><a href="#projects">Projects</a></li>
