@@ -4,6 +4,8 @@ import Hero from "./components/Hero.vue";
 import AboutMe from "./components/AboutMe.vue";
 import Project from "./components/Project.vue";
 import Indicator from "./components/Indicator.vue";
+import TechStack from "./components/TechStack.vue";
+import ContactMe from "./components/ContactMe.vue";
 </script>
 
 <template>
@@ -14,20 +16,41 @@ import Indicator from "./components/Indicator.vue";
     :variants="{ custom: { scale: 1.2 } }"
     :delay="200"
     :duration="1200"
-    class="p-8 flex flex-col gap-8 mx-auto items-center max-w-7xl w-full min-h-screen"
+    class="px-8 flex flex-col gap-8 mx-auto items-center max-w-6xl w-full min-h-screen mb-16"
   >
     <Navbar />
     <Hero />
     <AboutMe />
     <div class="flex flex-col gap-4 w-full">
-      <Indicator title="Projects"/>
+      <Indicator title="Projects" />
       <section class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-      <Project title="Quikdek" description="A flash card application for students to learn easier"/>
-      <Project />
-      <Project />
-      <Project />
-      <Project />
-    </section>
+        <Project
+          title="Aora"
+          description="An AI PDF chat application where users can work with PDF's with the assistance of AI."
+          github-url="https://github.com/winnerezy/aora"
+          live-url="https://aora-.vercel.app/"
+        />
+        <Project
+          title="Quikdek"
+          description="A user-friendly flashcard website ror making and studying flash cards and can also other study other users flash cards."
+          github-url="https://github.com/winnerezy/quikdek"
+          live-url="https://quikdek.vercel.app/"
+        />
+        <Project
+          title="Brainstorm"
+          description="A platform where users can create and join topics, share and discuss about topic content."
+          github-url="https://github.com/winnerezy/brainstorm"
+          live-url="#"
+        />
+        <Project
+          title="Katei"
+          description="A suite of planning tools for students to organize their school lives and personal lives as well."
+          github-url="https://github.com/winnerezy/Katei"
+          live-url="https://katei.vercel.app/"
+        />
+      </section>
     </div>
+    <TechStack />
+    <ContactMe />
   </main>
 </template>

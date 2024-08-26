@@ -9,6 +9,7 @@ export default defineComponent({
 <template>
   <section
     class="flex w-full"
+    id="home"
   >
     <div class="w-full flex flex-col md:flex-row gap-6 h-38 items-center fade">
       <section class="w-full flex p-2 flex-col gap-2">

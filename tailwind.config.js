@@ -8,11 +8,11 @@ module.exports = {
         'text': 'var(--text)',
         'background': 'var(--background)',
         'primary': 'var(--primary)',
+        'hover': 'var(--hover',
         'secondary': 'var(--secondary)',
         'border': 'var(--border)',
        },
-       
-    },
+    }
   },
   plugins: [],
 }
