@@ -28,7 +28,7 @@ import ContactMe from "./components/ContactMe.vue";
           title="Aora"
           description="An AI PDF chat application where users can work with PDF's with the assistance of AI."
           github-url="https://github.com/winnerezy/aora"
-          live-url="https://aora-.vercel.app/"
+          live-url="https://aora-ai.vercel.app/"
         />
         <Project
           title="Quikdek"
