@@ -16,11 +16,11 @@ export default defineComponent({
   <Indicator title="Contact Me" />
 
   <section
-    class="flex flex-col md:flex-row justify-center gap-4 w-full p-2"
+    class="flex flex-col justify-center gap-4 w-full p-2"
     id="contactme"
   >
     <div
-      class="row-span-2 bg-primary w-full md:w-3/5 h-full p-6 flex flex-col gap-4 shadow-sm"
+      class="row-span-2 bg-primary w-full p-6 flex flex-col gap-4 shadow-sm text-center"
     >
       <span class="text-3xl">Get in touch with me</span>
       <a
@@ -29,7 +29,7 @@ export default defineComponent({
         >Mail Me</a
       >
     </div>
-    <div class="grid grid-rows-2 grid-cols-2 w-full md:w-2/5 gap-4">
+    <div class="grid grid-rows-2 grid-cols-2 w-full gap-4 h-full">
       <a
         href="https://github.com/winnerezy"
         class="bg-primary flex items-center justify-center px-16 gap-6 max-md:py-2 border border-transparent hover:border-border rounded-xl duration-200 shadow-sm"
