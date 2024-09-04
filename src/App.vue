@@ -32,7 +32,7 @@ import ContactMe from "./components/ContactMe.vue";
         />
         <Project
           title="Quikdek"
-          description="A user-friendly flashcard website ror making and studying flash cards and can also other study other users flash cards."
+          description="A user-friendly flashcard website for making and studying flash card decks."
           github-url="https://github.com/winnerezy/quikdek"
           live-url="https://quikdek.vercel.app/"
         />
