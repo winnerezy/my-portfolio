@@ -42,12 +42,6 @@ import ContactMe from "./components/ContactMe.vue";
           github-url="https://github.com/winnerezy/brainstorm"
           live-url="#"
         />
-        <Project
-          title="Katei"
-          description="A suite of planning tools for students to organize their school lives and personal lives as well."
-          github-url="https://github.com/winnerezy/Katei"
-          live-url="https://katei.vercel.app/"
-        />
       </section>
     </div>
     <TechStack />
