@@ -12,7 +12,7 @@ export default defineComponent({
     id="home"
   >
     <div class="w-full flex flex-col md:flex-row gap-6 h-38 items-center fade">
-      <section class="w-full flex p-2 flex-col gap-2">
+      <section class="w-full flex p-2 flex-col gap-4">
         <h1 class="text-5xl font-semibold">
           Hey I&apos;m Winner
         </h1>
@@ -20,6 +20,7 @@ export default defineComponent({
           I am a full-stack developer with a passion for web and mobile
           development
         </h3>
+        <a class="border w-fit p-2 rounded-full hover:-translate-y-1 transition cursor-pointer" href="../assets/eromoigbe-agbonikpeya-resume.pdf" download>Download Resume</a>
       </section>
 
       <svg
