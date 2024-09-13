@@ -20,7 +20,7 @@ export default defineComponent({
           I am a full-stack developer with a passion for web and mobile
           development
         </h3>
-        <a class="border w-fit p-2 rounded-full hover:-translate-y-1 transition cursor-pointer" href="../assets/eromoigbe-agbonikpeya-resume.pdf" download>Download Resume</a>
+        <!-- <a class="border w-fit p-2 rounded-full hover:-translate-y-1 transition cursor-pointer" download :href="downloadById(../assets/eromoigbe-agbonikpeya-resume.pdf)">Download Resume</a> -->
       </section>
 
       <svg
