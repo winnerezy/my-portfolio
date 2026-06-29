@@ -34,6 +34,17 @@ const projects = [
     description:
       "Go CLI for backing up environment variables to private GitHub repositories.",
   },
+  {
+    name: "Silk",
+    href: "https://github.com/winnerx0/silk",
+    description:
+      "Redis-like key-value store with AOF persistence and log compaction.",
+  },
+  {
+    name: "Coil",
+    href: "https://github.com/winnerx0/coil",
+    description: "Build system powered by Railpack.",
+  },
 ];
 
 const page = () => {
